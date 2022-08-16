@@ -1,0 +1,131 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-size: 10px;
+}
+body
+{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #006466 0%, #212f45 35%, #4d194d 100%);
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 8rem auto;
+}
+.container h1
+{
+    font-size: 7rem;
+    font-family: 'Cinzel', serif;
+    color: #ffd5c2;
+    text-align: center;
+}
+.bodyPart
+{
+    display: flex;
+    flex-direction: row;
+
+}
+.bodyPart>.point
+{
+    border-radius: 5%;
+    padding: 0.5rem;
+    border-color: #ffd5c2;
+    border-style:outset;
+    width: fit-content;
+    justify-content: flex-start;
+    height: 10rem;
+}
+.bodyPart>.point h3
+{
+    font-family: 'Josefin Slab', serif;
+    color: #ffd5c2;
+    font-size: 3rem;
+}
+.bodyPart>.point h3 p
+{
+    text-align: center;
+}
+.container>.bodyPart>.box
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    border-color: #ffd5c2;
+    border-style:outset;
+    margin: 10rem auto;
+    border-radius: 5%;
+    width: 45rem;
+    height:fit-content;
+    padding: 2rem;
+}
+.cards
+{
+    margin: auto;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    cursor:pointer;
+    border-radius: 5%;
+    border: 0.01rem solid black;
+    transition: 0.3s ease;
+    pointer-events: all;
+    width: 7.5rem;
+    height: 9.5rem;
+    background-image: url('../Images/aditya-chinchure-IEISYENbXp8-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#exampleModalLabel
+{
+    font-size: 4rem;
+    font-family: 'Josefin Slab', serif;
+    color: #006466;
+    text-align: center;
+}
+#textBody
+{
+    width: 50rem;
+}
+#text,#text1
+{
+    font-size: 3rem;
+    font-family: 'Josefin Slab', serif;
+    color: #212f45;
+}
+.foot
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+}
+#btnReady
+{
+    font-size: 2.8rem;
+    font-family: 'Josefin Slab', serif;
+    color: white;
+    background-color: #4d194d;
+    border-color: #4d194d !important;
+}
+#btnReady:hover
+{
+    background-color: #682e68;
+}
+#btnGet
+{
+    text-decoration: none;
+    color: white;
+}
+
+#clickedButton
+{
+    visibility: hidden;
+}
+ 

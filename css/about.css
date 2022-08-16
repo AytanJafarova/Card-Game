@@ -1,0 +1,71 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-size: 10px;
+}
+body
+{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, #b7094c 0%, #5c4d7d 35%, #0091ad 100%);
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10rem auto;
+}
+.container h1
+{
+    font-size: 8rem;
+    font-family: 'Cinzel', serif;
+    color: #ffd5c2;
+    text-align: center;
+}
+.container>.buttons
+{
+    display: flex;
+    flex-direction:row;
+}
+.container>.buttons>#button1
+{
+    font-family: 'Cinzel', serif;
+    justify-content: flex-start;  
+    margin: 2rem auto;  
+    background-color: #cbc0d3;
+    border-radius: 5%;
+}
+.container>.buttons>#button1 a
+{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.container>.buttons>#button1:hover
+{ 
+    background-color: transparent;
+    transition: 0.5s;
+}
+.container>.buttons>#button1 a:hover
+{
+    color: #cbc0d3;
+}
+.container>.text> #textPart
+{
+    font-size: 5rem;
+    font-family: 'Josefin Slab', serif;
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+}
+.container>.text> h4
+{
+    font-size: 5rem;
+    font-family: 'Josefin Slab', serif;
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+}
